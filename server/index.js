@@ -14,7 +14,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-mongoose.connect("mongodb+srv://kimiri:GqDczRFsa9VW1ksc@cluster12.d3hhmlb.mongodb.net/", 
+mongoose.connect("mongodb+srv://kimiri:<password>@cluster12.d3hhmlb.mongodb.net/", 
 { useNewUrlParser: true, 
     useUnifiedTopology: true })
   .then(() => {
@@ -82,7 +82,7 @@ app.post("/register", (req, res) => {
   });
 
    
-//////////////////GqDczRFsa9VW1ksc////////
+
 
 //////////////////////////courses
 
